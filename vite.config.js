@@ -3,6 +3,7 @@ import { transformWithEsbuild } from 'vite'
 import restart from 'vite-plugin-restart'
 
 export default {
+    base: '/simple-r3f-web/',
     root: 'src/',
     publicDir: '../public/',
     plugins:
