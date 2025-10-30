@@ -4,7 +4,7 @@ import restart from 'vite-plugin-restart'
 
 export default {
     base: '/simple-r3f-web/',
-    root: 'src/',
+    root: 'dist/',
     publicDir: '../public/',
     plugins:
     [
